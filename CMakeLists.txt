@@ -66,6 +66,6 @@ endif()
 # if(RPC_TESTKIT_WITH_TEST_SUITE)
 #     enable_testing()
 # endif()
-
+add_subdirectory(third_party)
 add_subdirectory(source)
-add_subdirectory(testing)
+add_subdirectory(tests)
